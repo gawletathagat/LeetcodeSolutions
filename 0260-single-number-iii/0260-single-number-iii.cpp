@@ -5,34 +5,24 @@ public:
         // sc(n), tc(n) // map
         // sc(1), tc(n^2) // for loop
         // bitmanupulation //  //striver
-        long overall_xor = 0;
-        for (int n : nums) {
-            overall_xor ^= n;
+   
+        int n = nums.size();
+        long x = 0;
+        for(int i=0 ; i<n ; i++){
+            x = x^nums[i];
         }
-
-        int first_group_xor = 0;
-        int second_group_xor = 0;
-        
-        //striver
-        int bit_pos_dif = (overall_xor & (overall_xor-1)) ^ overall_xor;
-        
-       
-
-        for (int i= 0 ; i<nums.size() ; i++) {
-            // cout<<((num >> bit_pos_dif)& 1) <<" nums ";
-            // if (((num >> bit_pos_dif) & 1) == 1) {
-            //     first_group_xor ^= num;
-            //     cout<<first_group_xor<<" first_group_xor "<<endl;
-            // } else {
-            //     second_group_xor ^= num;
-            //     cout<<second_group_xor<<" second_group_xor "<<endl;
-            // }
-            if( nums[i] & bit_pos_dif )  first_group_xor ^= nums[i];
-            else second_group_xor ^= nums[i];
-
+        int rightmost = (x&(x-1))^x;
+        int b1 = 0;
+        int b2 = 0;
+        for(int i=0 ; i<n ; i++){
+            if(rightmost&nums[i]){
+                b1 = b1^nums[i];
+            }else{
+                b2 = b2^nums[i];
+            }
         }
+        return {b1,b2};
+  
 
-        return {first_group_xor, second_group_xor};
-        
     }
 };
