@@ -7,12 +7,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0344-reverse-string](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0409-longest-palindrome) |
+| [1044-find-common-characters](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1044-find-common-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3379-score-of-a-string](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/3379-score-of-a-string) |
 # Array
 |  |
 | ------- |
 | [0260-single-number-iii](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0260-single-number-iii) |
+| [1044-find-common-characters](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1044-find-common-characters) |
 # Bit Manipulation
 |  |
 | ------- |
@@ -31,3 +33,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0409-longest-palindrome) |
+| [1044-find-common-characters](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1044-find-common-characters) |
