@@ -84,12 +84,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2472-build-a-matrix-with-conditions](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2502-sort-the-people](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2846-robot-collisions) |
 ## Hash Table
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1207-delete-nodes-and-return-forest](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2502-sort-the-people](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2502-sort-the-people) |
 ## Two Pointers
 |  |
 | ------- |
@@ -103,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2502-sort-the-people](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
@@ -142,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2502-sort-the-people](https://github.com/gawletathagat/LeetcodeSolutions/tree/master/2502-sort-the-people) |
 ## Stack
 |  |
 | ------- |
