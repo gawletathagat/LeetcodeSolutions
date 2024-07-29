@@ -3,22 +3,41 @@ public:
     int numTeams(vector<int>& rating) 
     {
         int n = rating.size() ;
-        int ans= 0;
-       for( int i= 0 ;i<n; i++)
-       {
-         for( int j = i+1 ; j<n; j++)
-         {
-            for( int k = j+ 1; k<n; k++)
+        int total = 0;
+        for( int j = 0; j<n ; j++)
+        {
+            int less = 0;
+            for( int i= 0; i<j; i++)
             {
-                if( rating[i] < rating[j] && rating[j] < rating[k] ) ans++;
-
-                else if(rating[i] > rating[j] && rating[j] > rating[k] ) ans++;
-
+                if( rating[i] < rating[j] ) less++;
             }
-         }
-       }
+             int more=0;
+            for( int k = j+1; k<n ; k++)
+            {
+                if( rating[j] < rating[k] ) more++;
+            }
 
-       return ans; 
+            total = total + less*more ;
+        }
+
+         for( int j = 0; j<n ; j++)
+        {
+            int less = 0;
+             int more=0;
+            for( int i= 0; i<j; i++)
+            {
+                if( rating[i] > rating[j] ) more++;
+            }
+            
+            for( int k = j+1; k<n ; k++)
+            {
+                if( rating[j] > rating[k] ) less++;
+            }
+
+            total = total + less*more ;
+        }
+
+         return total;
         
     }
 };
